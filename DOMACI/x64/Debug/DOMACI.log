@@ -1,0 +1,18 @@
+﻿  main.cpp
+C:\Users\lukaz\Desktop\faks\DOMACI ASP2 TRECI\DOMACI\DOMACI\HashTable.cpp(18,11): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\Users\lukaz\Desktop\faks\DOMACI ASP2 TRECI\DOMACI\DOMACI\HashTable.cpp(188,28): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+C:\Users\lukaz\Desktop\faks\DOMACI ASP2 TRECI\DOMACI\DOMACI\HashTable.cpp(190,28): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+main.obj : error LNK2005: "public: int __cdecl HashTable::avgAccessSuccess(void)" (?avgAccessSuccess@HashTable@@QEAAHXZ) already defined in HashTable.obj
+main.obj : error LNK2005: "public: int __cdecl HashTable::avgAccessUnsuccess(void)" (?avgAccessUnsuccess@HashTable@@QEAAHXZ) already defined in HashTable.obj
+main.obj : error LNK2005: "public: void __cdecl HashTable::clear(void)" (?clear@HashTable@@QEAAXXZ) already defined in HashTable.obj
+main.obj : error LNK2005: "public: bool __cdecl HashTable::deleteKey(int)" (?deleteKey@HashTable@@QEAA_NH@Z) already defined in HashTable.obj
+main.obj : error LNK2005: "public: double __cdecl HashTable::fillRatio(void)" (?fillRatio@HashTable@@QEAANXZ) already defined in HashTable.obj
+main.obj : error LNK2005: "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > * __cdecl HashTable::findKey(int)" (?findKey@HashTable@@QEAAPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z) already defined in HashTable.obj
+main.obj : error LNK2005: "public: int __cdecl HashTable::findMax(void)" (?findMax@HashTable@@QEAAHXZ) already defined in HashTable.obj
+main.obj : error LNK2005: "public: int __cdecl HashTable::findMin(void)" (?findMin@HashTable@@QEAAHXZ) already defined in HashTable.obj
+main.obj : error LNK2005: "public: bool __cdecl HashTable::insertKey(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?insertKey@HashTable@@QEAA_NHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in HashTable.obj
+main.obj : error LNK2005: "public: int __cdecl HashTable::keyCount(void)" (?keyCount@HashTable@@QEAAHXZ) already defined in HashTable.obj
+main.obj : error LNK2005: "public: void __cdecl HashTable::prosiriTabelu(void)" (?prosiriTabelu@HashTable@@QEAAXXZ) already defined in HashTable.obj
+main.obj : error LNK2005: "public: void __cdecl HashTable::resetStatistics(void)" (?resetStatistics@HashTable@@QEAAXXZ) already defined in HashTable.obj
+main.obj : error LNK2005: "public: int __cdecl HashTable::tableSize(void)" (?tableSize@HashTable@@QEAAHXZ) already defined in HashTable.obj
+C:\Users\lukaz\Desktop\faks\DOMACI ASP2 TRECI\DOMACI\x64\Debug\DOMACI.exe : fatal error LNK1169: one or more multiply defined symbols found
